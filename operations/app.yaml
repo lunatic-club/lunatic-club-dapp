@@ -1,0 +1,9 @@
+name: lunatic-club-dapp
+services:
+- dockerfile_path: operations/Dockerfile
+  github:
+    branch: main
+    deploy_on_push: false
+    repo: lunatic-club/lunatic-club-dapp
+  http_port: 80
+  name: lunatic-club-dapp

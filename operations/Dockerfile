@@ -27,6 +27,5 @@ RUN yarn build
 FROM nginx
 
 COPY --from=build /tmp/dist /usr/www
-COPY --from=build /tmp/src/view/index.html /usr/www/
 COPY --from=build /tmp/src/assets /assets
 COPY operations/nginx.conf /etc/nginx/nginx.conf

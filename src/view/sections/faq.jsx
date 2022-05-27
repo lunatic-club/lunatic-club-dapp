@@ -13,6 +13,11 @@ const styles = makeStyles(theme => ({
   answer: {
     fontSize: '1.2rem',
     textAlign: 'justify'
+  },
+  link: {
+    textDecoration: 'inherit',
+    textTransform: 'inherit',
+    color: '#1976d2'
   }
 }))
 
@@ -35,6 +40,9 @@ const Faq = props => {
             </p>
             <p className={classes.answer}>
               Note! In order to send Terra LUNA via this dApp, you would need to install Terra Station and Metamask into your browser.
+            </p>
+            <p className={classes.answer}>
+              You can view the video with the instructions <a className={classes.link} target='_blank' href='https://youtu.be/UrXB8vZC_0s'>here</a>
             </p>
           </FaqBox>
         </Grid>
@@ -89,6 +97,9 @@ const Faq = props => {
           <FaqBox title='Why do I have to send LUNA?'>
           <p className={classes.answer}>
             This is to protect against replay attacks. If this step was skipped then Do Kwon would be able to mint infinite amount of LUNAtic NFTs. 
+          </p>
+          <p className={classes.answer}>
+            You can view the video with the instructions <a className={classes.link} target='_blank' href='https://youtu.be/05R__9_8cD8'>here</a>
           </p>
           </FaqBox>
         </Grid>

@@ -32,7 +32,6 @@ export default makeStyles(theme => ({
       opacity: 0.75
     }
   },
-
   nftImg: {
     textAlign: 'center',
   }

@@ -1,8 +1,11 @@
 import React from 'react'
 import {useWallet, WalletStatus} from '@terra-money/wallet-provider'
+import {Typography} from '@mui/material'
 import Button from '../ui-elements/asyncButton'
+import styles from './styles'
 
 const Wallet = () => {
+  const classes = styles()
   const {
     status,
     network,
@@ -11,7 +14,6 @@ const Wallet = () => {
     connect,
     disconnect,
   } = useWallet()
-
   return (
     <>
       {/* {JSON.stringify({ status, network, wallets }, null, 2 )}  */}
@@ -26,7 +28,7 @@ const Wallet = () => {
               onClick={() => connect(connectType)}
               loading={status === WalletStatus.WALLET_CONNECTED}
             >
-              Connect
+              <Typography variant='button' className={classes.buttonText}>Connect Terra Station</Typography>
             </Button>
           ) : null
         ))}

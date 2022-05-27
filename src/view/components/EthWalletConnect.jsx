@@ -102,7 +102,7 @@ const EthWalletConnect = props => {
     ) : (
       <Grid container item xs={12} justifyContent='flex-end'>
         <Button variant='contained' size='large' onClick={onConnect} className={classes.button}>
-          <Typography variant='button' className={classes.buttonText}>CONNECT</Typography>
+          <Typography variant='button' className={classes.buttonText}>Connect Ethereum Wallet</Typography>
         </Button>
       </Grid>
     )}

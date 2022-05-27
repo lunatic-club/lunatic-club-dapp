@@ -5,6 +5,14 @@ export default makeStyles(theme => ({
     textAlign: 'center',
     width: '100%',
   },
+  osLinkContainer: {
+    textAlign: 'center'
+  },
+  osLink: {
+    textDecoration: 'inherit',
+    textTransform: 'uppercase',
+    color: '#1976d2'
+  },
   glitch: {
     fontSize: '5rem',
     fontWeight: 'bold',

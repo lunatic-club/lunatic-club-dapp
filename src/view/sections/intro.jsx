@@ -19,6 +19,9 @@ const Intro = props => {
       <Grid item xs={6} className={classes.nftImg}>
         <img width={500} height={500} src='/assets/nft.svg' />
       </Grid>
+        <Grid item xs={12} className={classes.osLinkContainer}>
+          <a className={classes.osLink} target="_blank" href='https://opensea.io/collection/lunatic-club'>View on OpenSea</a>
+        </Grid>
     </Grid>
   )
 }

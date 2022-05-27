@@ -104,10 +104,10 @@ const Faq = props => {
           </FaqBox>
         </Grid>
         <Grid item md={6}>
-          <FaqBox title='What is the max supply?'>
+          <FaqBox title='Do you support LUNA 2.0'>
             <p className={classes.answer}>
-              Currently the goal if to allow as many LUNA holders to reincarnate their Terra LUNA coins and thus there is not upper limit. 
-              However, this might change shall the community vote for a strict max supply to be enforced.
+              At the moment we support only LUNA Classic (the original). However, we are future proof and the NFT Smart Contract will eventually support LUNA 2.0.
+              The version is part of the on-chain metadata. You see what we did there ;)
             </p>
           </FaqBox>
         </Grid>

@@ -9,6 +9,7 @@ import Faq from '../sections/faq'
 import Toast from '../ui-elements/toast'
 import LunaSendSuccess from '../components/notification/LunaSendSuccess'
 import MintSuccess from '../components/notification/MintSuccess'
+import SocialBar from '../components/socialBar'
 
 const pluginWrapper = () => {
   require('./waterEffect.js')
@@ -63,6 +64,7 @@ const Home = () => {
           )
         }}
       />
+      <SocialBar />
       {renderToast()}
     </>
   )

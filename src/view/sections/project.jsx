@@ -21,7 +21,7 @@ const styles = makeStyles(theme => ({
     textAlign: 'center',
   },
   txt: {
-    fontSize: '1.5rem'
+    fontSize: '1.25rem'
   },
   contentSection: {
     paddingRight: '5%'
